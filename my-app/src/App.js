@@ -8,6 +8,7 @@ import FunctionalGreetingWithProps from './components/FunctionalGreetingWithProp
 import StatefulGreeting from './components/StatefulGreeting';
 import StatefulGreetingWithCallback from './components/StatefulGreetingWithCallback';
 import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrevState';
+import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
      <ConditionalRenderingFunctional connected={true}/>
      <ConditionalRenderingClass/>
      <NestingComponents/>
+     <MethodsAsPropsParent/>
     </div>
   );
 }
