@@ -9,6 +9,7 @@ import StatefulGreeting from './components/StatefulGreeting';
 import StatefulGreetingWithCallback from './components/StatefulGreetingWithCallback';
 import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrevState';
 import MethodsAsPropsParent from './components/MethodsAsPropsParent';
+import RenderingLists from './components/RenderingLists';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
      <ConditionalRenderingClass/>
      <NestingComponents/>
      <MethodsAsPropsParent/>
+     <RenderingLists />
     </div>
   );
 }
