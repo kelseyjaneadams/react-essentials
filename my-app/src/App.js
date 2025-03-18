@@ -19,6 +19,7 @@ import { SearchBar1 } from './components/SearchBar1';
 import { SearchBar2 } from './components/SearchBar2';
 import { SearchBar3 } from './components/SearchBar3';
 import ControlledFormHooks from './components/ControlledFormHooks';
+import UseStateWithArrays from './components/UseStateWithArrays';
 
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
      <SearchBar2 />
      <SearchBar3 />
      <ControlledFormHooks />
+     <UseStateWithArrays />
     </div>
   );
 }
