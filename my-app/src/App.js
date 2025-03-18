@@ -18,6 +18,7 @@ import UncontrolledForm from './components/UncontrolledForm';
 import { SearchBar1 } from './components/SearchBar1';
 import { SearchBar2 } from './components/SearchBar2';
 import { SearchBar3 } from './components/SearchBar3';
+import ControlledFormHooks from './components/ControlledFormHooks';
 
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
      <SearchBar1 />
      <SearchBar2 />
      <SearchBar3 />
+     <ControlledFormHooks />
     </div>
   );
 }
