@@ -20,8 +20,8 @@ import { SearchBar2 } from './components/SearchBar2';
 import { SearchBar3 } from './components/SearchBar3';
 import ControlledFormHooks from './components/ControlledFormHooks';
 import UseStateWithArrays from './components/UseStateWithArrays';
-import UseEffectCounter from './components/UseEffectCounter';
 import ClassCounter from './components/ClassCounter';
+import UseEffectCounterContainer from './components/UseEffectCounterContainer';
 
 
 function App() {
@@ -49,7 +49,7 @@ function App() {
      <ControlledFormHooks />
      <UseStateWithArrays />
      <ClassCounter />
-     <UseEffectCounter />
+     <UseEffectCounterContainer />
 
     </div>
   );
