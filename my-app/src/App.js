@@ -22,6 +22,8 @@ import ControlledFormHooks from './components/ControlledFormHooks';
 import UseStateWithArrays from './components/UseStateWithArrays';
 import ClassCounter from './components/ClassCounter';
 import UseEffectCounterContainer from './components/UseEffectCounterContainer';
+import HTTPRequests from './components/HTTPRequests';
+import HTTPPost from './components/HTTPost';
 
 
 function App() {
@@ -50,6 +52,9 @@ function App() {
      <UseStateWithArrays />
      <ClassCounter />
      <UseEffectCounterContainer />
+     <HTTPRequests />
+     <HTTPPost />
+     <HTTPHooks />
 
     </div>
   );
